@@ -7,7 +7,6 @@ option go_package = "github.com/cosmos-developer/baby/x/claim/types";
 
 // Params defines the parameters for the module.
 message Params {
-  option (gogoproto.goproto_stringer) = false;
   // enable claiming process
   bool enable_claims = 1;
   // timestamp of the airdrop start
